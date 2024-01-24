@@ -4,29 +4,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="src/style.css">
     <title>Recipe AI Generator</title>
 </head>
-<header>
-    <h1>I'm your AI Kitchen Assistant🍲</h1>
-</header>
-<main>
-    <form>
-        <input type="text" placeholder="Enter a dish" autocomplete="off" required autofocus />
-        <input type="submit" value="Generate">
-    </form>
+<div class="container">
+    <header>
+        <H1>WELCOME!</H1>
+        <h2>I'm your AI Kitchen Assistant🍲</h2>
+        <h4>"Simply type any dish idea and I will generate the recipe for you"</h4>
+    </header>
+    <main>
+        <form class="input-form">
+            <input type="search" placeholder="Enter a dish...." autocomplete="off" required autofocus
+                class="input-box" />
+            <input type="submit" value="Generate" class="generate-box">
+        </form>
+        <div class="recipe-container">
+            <div>The recipe will display here...</div>
+            <div>The recipe will display here...</div>
+            <div>The recipe will display here...</div>
+        </div>
 
-    <div>The recipe will display here...</div>
-    <div>The recipe will display here...</div>
-    <div>The recipe will display here...</div>
-</main>
+
+        <div class="quote">"Food is our common ground, a universal experience." - James Beard</div>
+    </main>
 
 
-<footer>
-    This website is coded with 💖 by <a href="https://github.com/roseann1024" target="_blank">Rose Ann Austria</a> |
-    open-sourced in <a href="https://github.com/roseann1024/recipe-ai-generator" target="_blank">github</a> | hosted by
-    <a href="https://recipe-ai-generated-rva.netlify.app/" target="_blank">Netlify</a>
-</footer>
+    <footer>
+        This website is coded with 💖 by <a href="https://github.com/roseann1024" target="_blank">Rose Ann Austria</a> |
+        open-sourced in <a href="https://github.com/roseann1024/recipe-ai-generator" target="_blank">github</a> | hosted
+        by
+        <a href="https://recipe-ai-generated-rva.netlify.app/" target="_blank">Netlify</a>
+    </footer>
+</div>
 
 <body>
 
