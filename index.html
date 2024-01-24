@@ -12,6 +12,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="stylesheet" href="src/style.css">
     <title>Recipe AI Generator</title>
 </head>
@@ -22,15 +23,15 @@
         <h4>"Simply type any dish idea and I will generate the recipe for you"</h4>
     </header>
     <main>
-        <form class="input-form">
+        <form class="input-form" id="input-form">
             <input type="search" placeholder="Enter a dish...." autocomplete="off" required autofocus
                 class="input-box" />
             <input type="submit" value="Generate" class="generate-box">
         </form>
-        <div class="recipe-container">
-            <div>The recipe will display here...</div>
-            <div>The recipe will display here...</div>
-            <div>The recipe will display here...</div>
+        <div class="recipe-container" id="recipe-container">
+            <div></div>
+            <div></div>
+            <div></div>
         </div>
 
 
