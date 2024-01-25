@@ -39,17 +39,20 @@ a:hover {
   border-radius: 15px;
 }
 
-.input-form {
-  display: flex;
+.wrapping {
   padding: 30px;
   margin-top: 0;
   padding-top: 0;
 }
 
+.input-form {
+  display: flex;
+}
+
 .input-box {
   width: 80%;
   padding: 15px;
-  border-radius: 8px;
+  border-radius: 50px;
   background: #e0cbb6;
   border: 1px solid #ab7d53;
   color: #79512b;
@@ -59,13 +62,16 @@ a:hover {
 .generate-box {
   margin-left: 10px;
   padding: 15px;
-  border-radius: 8px;
+  border-radius: 50px;
   background: #b88e67;
   color: white;
   font-size: 16px;
   border: 1px solid #79512b;
 }
-
+.example {
+  color: black;
+  font-size: 12px;
+}
 .quote {
   text-align: center;
   font-family: Dancing Script, cursive;
@@ -75,17 +81,42 @@ a:hover {
 }
 
 .recipe-container {
-  padding: 30px;
+  margin-top: 0px;
+  padding: 15px;
   background: #b88e67;
   color: white;
   border-left: 3px solid #79512b;
   line-height: 1.5;
   font-size: 14px;
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+
   margin-bottom: 30px;
+}
+
+strong {
+  color: #ebbbcf;
+}
+
+.hidden {
+  display: none;
 }
 footer {
   margin-top: 10px;
   text-align: center;
   font-size: 12px;
+}
+
+.blink {
+  animation: blink-animation 1s steps(5, start) infinite;
+  -webkit-animation: blink-animation 1s steps(5, start) infinite;
+}
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
 }
