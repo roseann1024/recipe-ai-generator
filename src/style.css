@@ -1,9 +1,8 @@
 body {
   background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/112/019/original/becca-tapert-mDOGXiuVb4M-unsplash.jpg?1706132906");
   background-position: center;
-  background-size: 120%;
+  background-size: 200%;
   background-repeat: no-repeat;
-  min-height: 100vh;
   font-family: poppins;
 }
 h1 {
